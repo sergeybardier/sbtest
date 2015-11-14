@@ -1,3 +1,5 @@
-# sbtest
 
-composer create-project --prefer-dist --stability=dev sergeybardier/sbtest www
+# Installation
+
+composer create-project --prefer-source --stability=dev sergeybardier/sbtest www
+
