@@ -1,3 +1,3 @@
 # sbtest
 
-composer create-project --stability=dev sergeybardier/sbtest test
+composer create-project --prefer-dist --stability=dev sergeybardier/sbtest www
