@@ -66,7 +66,7 @@ class GoogleAutocomplete extends InputWidget
                       var addressType = results[i].address_components[a].types[0];
                       if (addressType=="postal_code") {
                           var val =  results[i].address_components[a]["long_name"];
-                          document.getElementById(addressType).value = val;
+                          document.getElementById("person-zip_code").value = val;
                           break search;
                       }
                   }
